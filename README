@@ -1,0 +1,1 @@
+"npm install && npm run build" for building, "npm run serve" for starting the app at localhost
