@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "MDL2";
+  src: url("./FullMDL2.ttf");
+  src: url("./FullMDL2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="mdl2-"],
+[class*="mdl2-"] {
+  font-family: "MDL2";
+}
+
+.mdl2 {
+  display: inline-block;
+  font: normal normal normal 14px/1 MDL2;
+  font-size: 14px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mdl2-edit:before {
+  content: "\E70F";
+}
+.mdl2-readingmode:before {
+  content: "\E736";
+}
+
+.mdl2-like:before {
+  content: "\E8E1";
+}
+
+.mdl2-dislike:before {
+  content: "\E8E0";
+}
+
+.mdl2-likesolid:before {
+  content: "\F3BF";
+}
+
+.mdl2-dislikesolid:before {
+  content: "\F3C0";
+}
+
+.mdl2-more:before {
+  content: "\E712";
+}
+
+.mdl2-tip:before {
+  content: "\F142";
+}
+
+.mdl2-favoritestar:before {
+  content: "\E734";
+}
+.mdl2-favoritestar-fill:before {
+  color: yellowgreen;
+  content: "\E735";
+}
+.mdl2-ad:before {
+  content: "\E9D9";
+}
+
+.mdl2-alert:before {
+  content: "\EA8F";
+}
+
+.mdl2-diagnosing:before {
+  content: "\EAD4";
+}
+
+.mdl2-F1E9:before {
+  content: "\F1E9";
+}
+
+.mdl2-F1E9:before {
+  content: "\F1E9";
+}
+.mdl2-EB6E:before {
+  content: "\EB6E";
+}
+.mdl2-F0FC:before {
+  content: "\F0FC";
+}
+.mdl2-EB6F:before {
+  content: "\EB6F";
+}
+.mdl2-EB6B:before {
+  content: "\EB6B";
+}
+.mdl2-F27B:before {
+  content: "\F27B";
+}
+.mdl2-E831:before {
+  content: "\E831";
+}
+.mdl2-E832:before {
+  content: "\E832";
+}
+.mdl2-E941:before {
+  content: "\E941";
+}
+.mdl2-F27E:before {
+  content: "\F27E";
+}
+.mdl2-ED19:before {
+  content: "\ED19";
+}
+.mdl2-F1EB:before {
+  content: "\F1EB";
+}
+.mdl2-F1E3:before {
+  content: "\F1E3";
+}
+.mdl2-F1E5:before {
+  content: "\F1E5";
+}
+.mdl2-EC60:before {
+  content: "\EC60";
+}
+.mdl2-EDCC:before {
+  content: "\EDCC";
+}
+.mdl2-EB6A:before {
+  content: "\EB6A";
+}
+.mdl2-E782:before {
+  content: "\E782";
+}

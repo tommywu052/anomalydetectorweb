@@ -1,0 +1,239 @@
+$segoe-semibold: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+  "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+:not(.ivu-load-loop):not(.ivu-spin-dot):not(.ivu-carousel-list):not(.ivu-carousel-track):not([class^="introjs-"]) {
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+
+  //release them if you needed.  by shzo
+
+  -o-transition-property: none !important;
+  -moz-transition-property: none !important;
+  -ms-transition-property: none !important;
+  -webkit-transition-property: none !important;
+  transition-property: none !important;
+  // // /*CSS transforms*/
+  // -o-transform: none !important;
+  // -moz-transform: none !important;
+  // -ms-transform: none !important;
+  // -webkit-transform: none !important;
+  // transform: none !important;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 200;
+  src: local("Segoe UI Light");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 300;
+  src: local("Segoe UI Semilight");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  src: local("Segoe UI");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  src: local("Segoe UI Semibold");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-weight: 700;
+  src: local("Segoe UI Bold");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Segoe UI Italic");
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-style: italic;
+  font-weight: 700;
+  src: local("Segoe UI Bold Italic");
+}
+
+.f-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .grow {
+    flex-grow: 1;
+  }
+}
+
+.f-row.between {
+  justify-content: space-between;
+}
+
+.f-row.alcenter {
+  align-items: center;
+}
+
+.f-row.flex-end {
+  justify-content: flex-end;
+}
+
+.f-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.f-layout {
+  display: flex;
+  flex-direction: column;
+  .header {
+  }
+  .content {
+    flex-grow: 1;
+  }
+  .footer {
+    flex-basis: 60px;
+  }
+}
+
+.border-left {
+  border-left: 1px solid #dee2e6 !important;
+}
+
+.border-right {
+  border-right: 1px solid #dee2e6 !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.border-top {
+  border-top: 1px solid #dee2e6 !important;
+}
+
+.header-background {
+  background: #fafafa;
+}
+
+.ivu-layout-header {
+  background: #fafafa;
+}
+.ivu-layout {
+  background: white;
+}
+.ivu-btn-text {
+  color: #0078d7;
+}
+.ivu-btn-default {
+  color: #0078d7;
+}
+.ivu-breadcrumb {
+  line-height: 40px;
+}
+.ivu-btn-text:hover {
+  background-color: transparent;
+}
+.el-table__expanded-cell {
+  padding: 0px 0px !important;
+}
+
+.el-table tr {
+  cursor: pointer;
+}
+
+.ivu-tabs-nav {
+  width: 100%;
+}
+.ivu-layout-content {
+  padding: 0px;
+}
+.ivu-tabs-bar {
+  margin-bottom: 0px;
+}
+.ivu-breadcrumb-item-link {
+  color: #2d8cf0 !important;
+}
+.ivu-card-head p i,
+.ivu-card-head p span {
+  vertical-align: initial;
+}
+
+.title-h1 {
+  font-size: 20px;
+}
+.title-h2 {
+  font-size: 16px;
+}
+.title-h3 {
+  font-size: 14px;
+}
+
+.chart-label {
+  font-size: 12px;
+  color: #666666;
+}
+
+.main-title {
+  font-size: 28px;
+  color: #2b2b2b;
+  padding: 0;
+  font-weight: bold;
+}
+
+.second-title {
+  font-size: 22px;
+  color: #2b2b2b;
+  padding: 0;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #767676;
+  text-align: left;
+  color: #2b2b2b;
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.inline-label {
+  color: rgb(215, 215, 215);
+  font-weight: bold;
+}
+
+.sub-desc {
+  font-size: 14px;
+  color: rgb(147, 147, 147);
+}
+
+.content-no-data-hint {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 18px;
+  color: #939393;
+}
+.ivu-layout-sider-trigger {
+  background-color: #0078d7;
+}
+.ivu-tooltip-inner-with-width {
+  word-break: break-all;
+}
+.ivu-alert {
+  font-size: 14px;
+}
+.ivu-menu-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ivu-notice-desc {
+  word-break: break-all;
+}
+
+body .el-table th.gutter{
+  display: table-cell!important;
+}
